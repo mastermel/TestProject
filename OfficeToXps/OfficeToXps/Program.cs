@@ -51,7 +51,7 @@ namespace OfficeToXps
             CallFeature2();
 
             // This is to simulate a new feature
-            ExecuteNewFeature1();
+            ExecuteNewFeature12();
 
             var result = OfficeToXps.ConvertToXps(SourceDocPath, ref ExportFilePath);
 
@@ -75,7 +75,7 @@ namespace OfficeToXps
             Console.WriteLine("Feature 2 stuff here");
         }
 
-        private static void ExecuteNewFeature1()
+        private static void ExecuteNewFeature12()
         {
             Console.WriteLine("This is feature 1");
         }
