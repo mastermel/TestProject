@@ -79,5 +79,10 @@ namespace OfficeToXps
         {
             Console.WriteLine("This is feature 1");
         }
+
+        private void SDSTUFF()
+        {
+            Console.WriteLine("TEST");
+        }
     }
 }
