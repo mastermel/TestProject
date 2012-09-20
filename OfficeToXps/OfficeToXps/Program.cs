@@ -47,6 +47,8 @@ namespace OfficeToXps
                 SourceDocPath = Path.ChangeExtension(SourceDocPath, ".pptx");
             }
 
+            // This is the stuff for Feature 2
+            CallFeature2();
 
             var result = OfficeToXps.ConvertToXps(SourceDocPath, ref ExportFilePath);
 
@@ -63,6 +65,11 @@ namespace OfficeToXps
             Console.WriteLine();
             Console.WriteLine("Press any key...");
             Console.ReadKey();
+        }
+
+        private static void CallFeature2()
+        {
+            Console.WriteLine("Feature 2 stuff here");
         }
     }
 }
